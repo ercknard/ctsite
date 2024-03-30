@@ -19,7 +19,7 @@ export default class Hero extends Component<Props, State> {
               Your Vision, Our Expertise.
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              Unlocking Tomorrow's Digital Frontier with Cryptech Services
+              Unlocking Tomorrow&apos;s Digital Frontier with Cryptech Services
             </p>
             <a
               href="#"

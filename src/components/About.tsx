@@ -11,13 +11,13 @@ export default class About extends Component<Props, State> {
 
   render() {
     return (
-      <section className="bg-[#0f172a] min-h-full py-12 flex justify-center border-top-clip blur-effect px-4">
+      <section className="bg-[#0f172a] min-h-full py-12 flex justify-center border-top-clip blur-effect px-4 pb-20">
         <div className="relative w-full max-w-screen-xl flex flex-col items-center">
           <span className="what-do-we-offer" />
-          <h2 className="relative text-4xl font-bold text-white mb-8 w-full text-center z-10">
+          <div className="relative text-4xl font-bold text-white mb-8 w-full text-center z-10 pt-10">
             {" "}
-            What do we offer?{" "}
-          </h2>
+            What Do We <span className="text-[#0ea5e9]">Offer</span> ?
+          </div>
           <p className="text-lg text-white text-center mb-4">
             We specialize in providing robust web3 and fullstack development
             services, with a primary focus on cryptocurrency, blockchain

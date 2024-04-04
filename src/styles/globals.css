@@ -233,13 +233,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .lgp {
-  background: url(/images/Lgp.png);
+  background: url(/images/Lgp.PNG);
   background-position: bottom right;
   background-size: cover;
 }
 
 .place {
-  background: url(/images/place.png);
+  background: url(/images/place.PNG);
   background-position: bottom right;
   background-size: cover;
 }

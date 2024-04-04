@@ -218,7 +218,7 @@ export default function ProjectsCall() {
           <Image
             width={1000}
             height={1000}
-            src="/images/Lgp.png"
+            src="/images/Lgp.PNG"
             alt="mockup"
           />
         </SwiperSlide>
@@ -226,7 +226,7 @@ export default function ProjectsCall() {
           <Image
             width={1000}
             height={1000}
-            src="/images/place.png"
+            src="/images/place.PNG"
             alt="mockup"
           />
         </SwiperSlide>

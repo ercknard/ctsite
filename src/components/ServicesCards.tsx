@@ -61,13 +61,13 @@ const services = [
 
 const ServicesCards = () => {
   return (
-    <section className="flex flex-wrap items-center justify-center w-full">
+    <section className="flex flex-wrap items-center gap-[1rem] w-full">
       {services.map((item) => (
         <div
           className="flex flex-wrap items-center justify-center"
           key={item.name}
         >
-          <div className="flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:min-w-[30rem] min-w-[20rem] max-w-[20rem] lg:h-[22.5rem] h-[27.5rem] shadow-lg hover:bg-[#004b9a50] border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105">
+          <div className="flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:min-w-[22.5rem] lg:max-w-[22.5rem] min-w-[20rem] max-w-[20rem] lg:h-[25rem] h-[27.5rem] shadow-lg hover:bg-[#004b9a50] border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105">
             <svg
               className="absolute bottom-0 left-0 mb-8"
               viewBox="0 0 375 283"

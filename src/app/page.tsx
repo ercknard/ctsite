@@ -5,6 +5,7 @@ import Hero from "@/components/hero";
 import About from "@/components/About";
 import SecurityServices from "@/components/SecurityServices";
 import Projects from "@/components/Projects";
+import Team from "@/components/Team";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
         </div>
         <About />
         <SecurityServices />
-        <Projects />
+        <Team />
+        {/* <Projects /> */}
         <Footer />
       </main>
     </>

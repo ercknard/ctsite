@@ -166,7 +166,7 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
+  margin-top: 1rem;
   font-weight: 800;
 }
 
@@ -181,7 +181,7 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -2.75rem;
+  margin-top: -1.5rem;
   font-weight: 800;
 }
 
@@ -267,4 +267,72 @@ body::-webkit-scrollbar-thumb {
   height: 5rem;
   width: 100%;
   top: 0;
+}
+
+.underlined::before {
+  width: 10%;
+  height: 0.2rem !important;
+  content: "";
+  position: absolute;
+  bottom: -0.75rem;
+  background: #0ea5e9;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blurs-effect::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #0b274875, transparent);
+}
+
+/* .bg-team-card:hover {
+  background: url(/images/4.png);
+  background-position: center center;
+  background-size: cover;
+  transition: 0.2s;
+} */
+
+/* .cover-team::after {
+  content: "";
+  background: #0f172a;
+  width: 100%;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  margin-top: -3.5rem;
+  z-index: -1;
+} */
+
+.team-desc {
+  visibility: hidden;
+}
+
+.team-image {
+  transform: scale(0.9);
+}
+
+.team-hover:hover .team-image {
+  transform: scale(0.8);
+  background: #0f172a;
+  transition: 0.2s;
+}
+
+.team-hover:hover .team-desc {
+  visibility: visible;
+  transition: 0.2s;
+}
+
+.team-hover:hover .team-name {
+  display: flex;
+  justify-content: center;
+  padding-top: 0 !important;
+}
+
+.team-card-hover:hover {
+  background: linear-gradient(to top, #004b9a50, #0f172a);
 }

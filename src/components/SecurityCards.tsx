@@ -64,11 +64,11 @@ const services = [
 
 const SecurityCards = () => {
   return (
-    <section className="relative w-screen-xl">
-      <div className="relative flex justify-center lg:flex-row flex-col mb-16 gap-12 ml-12">
+    <section className="relative justify-around ml-auto mr-auto">
+      <div className="relative flex justify-around lg:flex-row flex-col mb-16 gap-12 list-disc [&>*:nth-child(2)]:scale-105 lg:[&>*:nth-child(1)]:ml-3">
         {services.map((item) => (
           <div
-            className="lg:min-w-[384px] flex-shrink-0 mt-6 relative overflow-hidden bg-[#1e293b] rounded-lg min-w-[20rem] max-w-[20rem] min-h-[35rem] shadow-lg even:bg-[#004b9a50] border-solid even:border-2 border-l-[#2e6dd0] border-transparent border-2 even:scale-105"
+            className="lg:min-w-[384px] flex-shrink-0 mt-6 relative overflow-hidden bg-[#1e293b] rounded-lg min-w-[20rem] max-w-[20rem] min-h-[35rem] shadow-lg border-solid border-l-[#2e6dd0] border-transparent border-2 "
             key={item.name}
           >
             <svg

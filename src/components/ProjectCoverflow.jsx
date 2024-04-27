@@ -26,7 +26,7 @@ export default function ProjectsCall() {
         // navigation={true}
         thumbs={{ swiper: thumbsSwiper }}
         modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper2 w-[100vw]"
+        className="mySwiper2 w-[100vw] bg-[#0b1120]"
       >
         <SwiperSlide>
           <section className="relative flex items-center min-h-[75vh] cryptechtest">

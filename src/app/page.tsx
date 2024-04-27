@@ -21,7 +21,7 @@ export default function Home() {
         <About />
         <SecurityServices />
         <Team />
-        {/* <Projects /> */}
+        <Projects />
         <Footer />
       </main>
     </>

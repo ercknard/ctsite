@@ -14,7 +14,7 @@ export default class Footer extends Component<Props, State> {
       <footer className="bg-gray-900 lg:px-8">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
           <div className="md:flex md:justify-between">
-            <div className="mb-6 md:mb-0">
+            <div className="mb-6 md:mb-0 w-[50%]">
               <a href="#" className="flex items-center">
                 <Image
                   width="100"
@@ -27,6 +27,13 @@ export default class Footer extends Component<Props, State> {
                   Cryptech Services
                 </span>
               </a>
+              <div className="ml-2 self-center text-base text-[#c9c9c9] mt-4">
+                Cryptech Services specialize in providing robust web3 and
+                fullstack development services, with a primary focus on
+                cryptocurrency, blockchain technology, and web design.
+                Additionally, we offer expert services in the realms of
+                cybersecurity, as well as technical support and consultation.
+              </div>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>

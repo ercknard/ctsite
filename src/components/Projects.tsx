@@ -11,10 +11,10 @@ export default class Projects extends Component<Props, State> {
 
   render() {
     return (
-      <section className="bg-[#0b1120] min-h-full py-16 flex justify-center black-blur-effect px-4 h-screen">
+      <section className="bg-[#0b1120] py-16 flex justify-center black-blur-effect px-4 border-top-clip blur-effect-1">
         <span className="projects" />
-        <div className="relative w-full max-w-screen flex flex-col items-center overflow-hidden">
-          <span className="text-[#0ea5e9] text-xl">Cryptech Potfolio</span>
+        <div className="relative w-full max-w-screen flex flex-col items-center">
+          <span className="text-[#0ea5e9] text-xl">Cryptech Portfolio</span>
           <div className="relative text-4xl font-bold text-white mb-12 w-full text-center z-10 underlined-1">
             {" "}
             <span className="text-[#0ea5e9]">Project</span> Highlights

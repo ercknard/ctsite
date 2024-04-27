@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .landing-hero {
-  background: url(/images/ttten.svg), url(/images/bgs.webp);
+  background: url(/images/ttten.svg), url(/images/bgs.webp) !important;
   background-position: bottom center, top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,6 +50,13 @@ body::-webkit-scrollbar-thumb {
   background: url(/images/45.png);
   background-position: top right;
   background-repeat: no-repeat;
+}
+
+.landing-hero-1 {
+  background: url(/images/tttenv.svg), #0b1120 !important;
+  background-position: bottom center, top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-bg {
@@ -123,6 +130,16 @@ body::-webkit-scrollbar-thumb {
   z-index: 1;
 }
 
+.blur-effect-1::after {
+  content: "";
+  position: absolute !important;
+  background: linear-gradient(to top, #0b1120, transparent);
+  height: 5rem;
+  width: 100%;
+  margin-top: -9rem;
+  z-index: 1;
+}
+
 /* .black-blur-effect::after {
   content: "";
   position: absolute !important;
@@ -186,7 +203,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .team-services::after {
-  content: "Cryptech Services Team";
+  content: "Meet The Expert Team";
   position: absolute;
   font-size: 4rem;
   color: #014eb110;
@@ -235,13 +252,12 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
 }
 
-.project-selector {
-  position: absolute;
+/* .project-selector {
+  position: absolute !important;
   left: 0;
   right: 0;
-  margin: 0 auto;
-  bottom: 0;
-}
+  bottom: -50rem;
+} */
 
 .cryptechtest {
   background: url(/images/BG-B2.webp);
@@ -274,7 +290,7 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(to top, #0b1120, transparent);
   height: 5rem;
   width: 100%;
-  bottom: 1.5rem;
+  bottom: 0;
 }
 
 .dust-cover:before {
@@ -287,7 +303,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .underlined::before {
-  width: 10%;
+  width: 10rem;
   height: 0.2rem !important;
   content: "";
   position: absolute;
@@ -300,7 +316,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .underlined-1::before {
-  width: 5%;
+  width: 10rem;
   height: 0.2rem !important;
   content: "";
   position: absolute;

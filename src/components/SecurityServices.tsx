@@ -11,7 +11,7 @@ export default class SecurityServices extends Component<Props, State> {
 
   render() {
     return (
-      <section className="bg-[#0b1120] min-h-full py-20 flex justify-center px-4">
+      <section className="min-h-full py-20 flex justify-center px-4 landing-hero-1">
         <div className="relative w-full max-w-screen-xl flex flex-col items-center">
           <span className="security-services" />
           <span className="text-[#0ea5e9] text-xl">Our Services</span>

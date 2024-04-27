@@ -277,6 +277,12 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
 }
 
+.metrimask {
+  background: url(/images/mmcover1.webp);
+  background-position: bottom right;
+  background-size: cover;
+}
+
 .dust-cover {
   width: 100%;
   height: 100%;
@@ -383,9 +389,14 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(to top, #004b9a50, #0f172a);
 }
 
+.swiper-slide-thumb-active .to-fog-proj::before {
+  display: none;
+}
+
 .mySwiper .swiper-slide-thumb-active {
   opacity: 1 !important;
   animation: bounce 2s ease infinite;
+  filter: grayscale(0) !important;
 }
 @keyframes bounce {
   70% {
@@ -411,5 +422,49 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .mySwiper .swiper-slide {
-  opacity: 0.6;
+  filter: grayscale(0.5);
+}
+
+.swiper-slide .to-fog-proj::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #0f172a90, transparent);
+}
+
+/* .to-fog-proj::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #0f172a, transparent);
+} */
+
+.ctg {
+  background: url(/images/BG-B2.webp), #0f172a !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  border: none !important;
+}
+
+.lgp {
+  background: url(/images/lgp.PNG), #0f172a !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  border: none !important;
+}
+
+.mp {
+  background: url(/images/place.PNG), #0f172a !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  border: none !important;
+}
+
+.mm {
+  background: url(/images/mmcover1.webp), #0f172a !important;
+  background-position: right center !important;
+  background-size: cover !important;
+  border: none !important;
 }

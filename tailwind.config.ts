@@ -18,7 +18,7 @@ const config: Config = {
         md: "768px",
         lg: "1024px",
         xl: "1280px",
-        vxl: "1700px",
+        vxl: "1550px",
         pxl: "1800px",
       },
     },

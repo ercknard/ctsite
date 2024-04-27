@@ -262,12 +262,12 @@ export default function ProjectsCall() {
             <div className="grid lg:px-8 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div className="mr-auto place-self-center lg:col-span-7 z-[1]">
                 <div className="max-w-2xl mb-4 text-5xl font-bold tracking-tight leading-none md:text-5xl xl:text-5xl text-white">
-                  metrix.place
+                  MetriMask Mobile
                 </div>
                 <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-400">
-                  A communal graffiti board which any address can set a single
-                  pixel per MetrixCoin block by paying the gas fee for the
-                  transaction.
+                  Use MetriMask to interact with Metrixcoin Web3 apps from your
+                  mobile device. Store your coins and complete your transactions
+                  without needing desktop machine access.
                 </p>
                 <a
                   href="#"

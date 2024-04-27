@@ -266,7 +266,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .lgp {
-  background: url(/images/Lgp.PNG);
+  background: url(/images/lgps.png);
   background-position: bottom right;
   background-size: cover;
 }
@@ -449,7 +449,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .lgp {
-  background: url(/images/lgp.PNG), #0f172a !important;
+  background: url(/images/lgps.png), #0f172a !important;
   background-position: center center !important;
   background-size: cover !important;
   border: none !important;

@@ -73,7 +73,7 @@ const project_picker = [
     ),
   },
   {
-    name: "MetriMask",
+    name: "MetriMask Mobile",
     href: "#",
     current:
       "Our web design approach focuses on crafting user-centric and aesthetically pleasing websites that align with your brand identity and business goals.",

@@ -63,7 +63,7 @@ export default function ProjectsCall() {
           "--swiper-pagination-color": "#fff",
         }}
         spaceBetween={10}
-        // navigation={true}
+        navigation={false}
         thumbs={{ swiper: thumbsSwiper }}
         modules={[FreeMode, Navigation, Thumbs]}
         className="mySwiper2 w-[99vw] bg-[#0b1120] visibility-hidden"

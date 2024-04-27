@@ -382,3 +382,34 @@ body::-webkit-scrollbar-thumb {
 .team-card-hover:hover {
   background: linear-gradient(to top, #004b9a50, #0f172a);
 }
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1 !important;
+  animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-5%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-2.5%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-1.5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.mySwiper .swiper-slide {
+  opacity: 0.6;
+}

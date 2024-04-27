@@ -421,8 +421,13 @@ body::-webkit-scrollbar-thumb {
     transform: translateY(0);
   }
 }
+
 .mySwiper .swiper-slide {
-  filter: grayscale(0.5);
+  filter: grayscale(1);
+}
+
+.swiper-slide:hover {
+  filter: grayscale(0);
 }
 
 .swiper-slide .to-fog-proj::before {

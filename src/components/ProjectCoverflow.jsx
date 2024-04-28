@@ -399,7 +399,8 @@ export default function ProjectsCall() {
                   fill="white"
                 />
               </svg>
-              <span className="to-fog-proj"></span>
+              {/* <span className="selector-triangle" /> */}
+              <span className="to-fog-proj" />
               <div className="relative text-white px-6 pb-6 mt-6 bg-team-card cover-team z-10">
                 <div>{item.icon}</div>
                 <div className="flex justify-between team-name">

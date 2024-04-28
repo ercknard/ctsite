@@ -474,3 +474,14 @@ body::-webkit-scrollbar-thumb {
   background-size: cover !important;
   border: none !important;
 }
+
+.selector-triangle::before {
+  content: "";
+  clip-path: polygon(0 0, 0% 50%, 50% 0);
+  background: black;
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  top: 0;
+  opacity: 50%;
+}

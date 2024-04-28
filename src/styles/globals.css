@@ -397,6 +397,7 @@ body::-webkit-scrollbar-thumb {
   opacity: 1 !important;
   animation: bounce 2s ease infinite;
   filter: grayscale(0) !important;
+  transform: scale(1.05) !important;
 }
 @keyframes bounce {
   70% {

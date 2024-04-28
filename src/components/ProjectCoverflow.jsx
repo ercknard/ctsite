@@ -7,6 +7,10 @@ import PrecisionManufacturingOutlinedIcon from "@mui/icons-material/PrecisionMan
 import ShieldOutlinedIcon from "@mui/icons-material/ShieldOutlined";
 import DesignServicesOutlinedIcon from "@mui/icons-material/DesignServicesOutlined";
 import SupportAgentOutlinedIcon from "@mui/icons-material/SupportAgentOutlined";
+import { Button } from "@mui/material";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import PermIdentityIcon from "@mui/icons-material/PermIdentity";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Import Swiper styles
 import "swiper/css";
@@ -353,7 +357,7 @@ export default function ProjectsCall() {
 
       <Swiper
         onSwiper={setThumbsSwiper}
-        spaceBetween={50}
+        spaceBetween={40}
         slidesPerView={4}
         freeMode={true}
         watchSlidesProgress={true}
@@ -367,7 +371,7 @@ export default function ProjectsCall() {
           >
             <div
               className={
-                "flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:min-w-[20rem] lg:max-w-[20rem] min-w-[20rem] max-w-[20rem] lg:h-[25rem] h-[27.5rem] shadow-lg hover:bg-[#004b9a50] border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105 " +
+                "flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:min-w-[20rem] lg:max-w-[20rem] min-w-[20rem] max-w-[20rem] lg:h-[15rem] h-[27.5rem] shadow-lg hover:bg-[#004b9a50] border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105 " +
                 item.bg
               }
             >
@@ -402,6 +406,16 @@ export default function ProjectsCall() {
                   <span className="font-semibold text-2xl mt-2">
                     {item.name}
                   </span>
+                </div>
+              </div>
+              <div className="flex items-center justify-between mt-6">
+                <span className="p-4 mt-1 block text-lg text-[#cccccc] overflow-wrap: break-word;">
+                  Cryptech Services
+                </span>
+                <div className="flex gap-[.5rem] mr-4">
+                  <Button variant="contained">
+                    <GitHubIcon />
+                  </Button>
                 </div>
               </div>
             </div>

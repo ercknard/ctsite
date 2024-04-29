@@ -75,6 +75,8 @@ const services = [
   {
     name: "Baydroid",
     href: "Developer",
+    role1: "Consultant",
+    role2: "Cryptographer",
     current:
       "Our web design approach focuses on crafting user-centric and aesthetically pleasing websites that align with your brand identity and business goals.",
     icon: (
@@ -93,6 +95,8 @@ const services = [
   {
     name: "Boehmerang",
     href: "Developer",
+    role1: "Consultant",
+    role2: "CAD Designer",
     current:
       "Our graphic design services involve translating your brand identity and messaging into visually compelling designs.",
     icon: (
@@ -111,6 +115,8 @@ const services = [
   {
     name: "Rasalghul",
     href: "Developer",
+    role1: "Consultant",
+    role2: "Photographer",
     current:
       "We offer technical consultation by deeply understanding your project goals and challenges, and then providing targeted expertise and strategic guidance to optimize your systems, resolve technical issues, and enhance overall project success.",
     icon: (
@@ -129,6 +135,8 @@ const services = [
   {
     name: "Ercknard",
     href: "Developer",
+    role1: "Web Developer",
+    role2: "Web Designer",
     current:
       "We offer technical consultation by deeply understanding your project goals and challenges, and then providing targeted expertise and strategic guidance to optimize your systems, resolve technical issues, and enhance overall project success.",
     icon: (
@@ -147,6 +155,8 @@ const services = [
   {
     name: "Vanikoro",
     href: "Junior Developer",
+    role1: "-",
+    role2: "-",
     current:
       "We offer technical consultation by deeply understanding your project goals and challenges, and then providing targeted expertise and strategic guidance to optimize your systems, resolve technical issues, and enhance overall project success.",
     icon: (
@@ -225,10 +235,14 @@ const TeamCards = () => {
               <span className="text-white text-l team-desc ml-1">
                 {item.role2}
               </span> */}
-              {/* <span className="text-white text-l team-desc">{item.role1}</span>
-              <span className="text-white text-l team-desc ml-1">
-                {item.role2}
-              </span> */}
+              <div className="flex gap-4 justify-center">
+                <span className="text-white text-l team-desc">
+                  {item.role1}
+                </span>
+                <span className="text-white text-l team-desc ml-1">
+                  {item.role2}
+                </span>
+              </div>
             </div>
             <div className="flex items-center justify-between">
               <span className="p-4 mt-1 block text-lg text-[#cccccc] overflow-wrap: break-word;">

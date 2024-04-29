@@ -11,6 +11,7 @@ import { Button } from "@mui/material";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import ShopIcon from "@mui/icons-material/Shop";
 import Particlesview from "@/components/Particles";
 
 // Import Swiper styles
@@ -25,7 +26,7 @@ import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 const project_picker = [
   {
     name: "CryptechTest Game",
-    href: "#",
+    href: "https://github.com/CryptechTest",
     current:
       "Our full-stack web development approach involves proficiently handling both front-end and back-end aspects to deliver comprehensive and dynamic web solutions.",
     icon: <CurrencyBitcoinOutlinedIcon fontSize="large" />,
@@ -40,10 +41,11 @@ const project_picker = [
         src="/images/mug.png"
       />
     ),
+    btn: <GitHubIcon />,
   },
   {
     name: "Metrix LGP",
-    href: "#",
+    href: "https://github.com/Cryptech-Services/metrix-lgp",
     current:
       "As experts in Web3 and DApp development, we harness the power of decentralized technologies to build immersive and user-friendly applications.",
     icon: <PrecisionManufacturingOutlinedIcon fontSize="large" />,
@@ -58,10 +60,11 @@ const project_picker = [
         src="/images/logo-g-color.png"
       />
     ),
+    btn: <GitHubIcon />,
   },
   {
     name: "metrix.place",
-    href: "#",
+    href: "https://github.com/Cryptech-Services/metrix.place",
     current:
       "We specialize in Solidity smart contract development, creating secure and efficient blockchain-based solutions tailored to your specific decentralized application needs.",
     icon: <ShieldOutlinedIcon fontSize="large" />,
@@ -76,10 +79,11 @@ const project_picker = [
         src="/images/placelogo.png"
       />
     ),
+    btn: <GitHubIcon />,
   },
   {
     name: "MetriMask Mobile",
-    href: "#",
+    href: "https://play.google.com/store/apps/details?id=com.metrimask_mobile",
     current:
       "Our web design approach focuses on crafting user-centric and aesthetically pleasing websites that align with your brand identity and business goals.",
     icon: <DesignServicesOutlinedIcon fontSize="large" />,
@@ -94,6 +98,7 @@ const project_picker = [
         src="/images/mm.webp"
       />
     ),
+    btn: <ShopIcon />,
   },
 ];
 
@@ -116,7 +121,8 @@ export default function ProjectsCall() {
       >
         <SwiperSlide>
           <section
-            data-aos="zoom-in"
+            // data-aos="zoom-in"
+            // data-aos-anchor-placement="bottom-bottom"
             className="relative flex items-center min-h-[75vh] cryptechtest"
           >
             <span className="dust-cover" />
@@ -131,7 +137,8 @@ export default function ProjectsCall() {
                   and adventure in our immersive world.
                 </p>
                 <a
-                  href="#"
+                  href="https://cryptechtest.xyz/"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
                 >
                   Get started
@@ -149,10 +156,11 @@ export default function ProjectsCall() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/CryptechTest"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border  rounded-lg focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800"
                 >
-                  Speak to Sales
+                  Github <GitHubIcon className="ml-2" />
                 </a>
               </div>
               <div className="hidden lg:mt-0 lg:col-span-5 lg:flex z-[1] ml-auto mr-auto justify-center">
@@ -183,7 +191,8 @@ export default function ProjectsCall() {
                   resilience within the ecosystem.
                 </p>
                 <a
-                  href="#"
+                  href="https://metrixlgp.finance/"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
                 >
                   Get started
@@ -201,10 +210,11 @@ export default function ProjectsCall() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/Cryptech-Services/metrix-lgp"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border  rounded-lg focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800"
                 >
-                  Speak to Sales
+                  Github <GitHubIcon className="ml-2" />
                 </a>
               </div>
               <div className="hidden lg:mt-0 lg:col-span-5 lg:flex z-[1] w-[50%] ml-auto mr-auto justify-center">
@@ -235,7 +245,8 @@ export default function ProjectsCall() {
                   transaction.
                 </p>
                 <a
-                  href="#"
+                  href="https://metrix.place/"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
                 >
                   Get started
@@ -253,10 +264,11 @@ export default function ProjectsCall() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/Cryptech-Services/metrix.place"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border  rounded-lg focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800"
                 >
-                  Speak to Sales
+                  Github <GitHubIcon className="ml-2" />
                 </a>
               </div>
               <div className="hidden lg:mt-0 lg:col-span-5 lg:flex z-[1] w-[50%] ml-auto mr-auto justify-center">
@@ -288,7 +300,8 @@ export default function ProjectsCall() {
                   without needing desktop machine access.
                 </p>
                 <a
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=com.metrimask_mobile"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
                 >
                   Get started
@@ -306,10 +319,11 @@ export default function ProjectsCall() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=com.metrimask_mobile"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border  rounded-lg focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800"
                 >
-                  Speak to Sales
+                  Playstore <ShopIcon className="ml-2" />
                 </a>
               </div>
               <div className="hidden lg:mt-0 lg:col-span-5 lg:flex z-[1] w-[50%] ml-auto mr-auto justify-center">
@@ -380,7 +394,8 @@ export default function ProjectsCall() {
       >
         {project_picker.map((item) => (
           <SwiperSlide
-            data-aos="zoom-in"
+            // data-aos="zoom-in"
+            // data-aos-anchor-placement="bottom-bottom"
             className="flex flex-wrap items-center hover:opacity-100 cursor-pointer"
             key={item.name}
           >
@@ -428,11 +443,13 @@ export default function ProjectsCall() {
                 <span className="p-4 mt-1 block text-lg text-[#cccccc] overflow-wrap: break-word;">
                   Cryptech Services
                 </span>
-                <div className="flex gap-[.5rem] mr-4">
-                  <Button variant="contained">
-                    <GitHubIcon />
-                  </Button>
-                </div>
+                <a
+                  href={item.href}
+                  target="_blank"
+                  className="flex gap-[.5rem] mr-4"
+                >
+                  <Button variant="contained">{item.btn}</Button>
+                </a>
               </div>
             </div>
           </SwiperSlide>

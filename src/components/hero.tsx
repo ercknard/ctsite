@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import Image from "next/image";
 import ServicesMarquee from "./ServicesMarquee";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 type Props = {};
 
@@ -25,7 +26,7 @@ export default class Hero extends Component<Props, State> {
               Unlocking Tomorrow&apos;s Digital Frontier with Cryptech Services
             </p>
             <a
-              href="#"
+              href="#about"
               className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
             >
               Get started
@@ -43,10 +44,11 @@ export default class Hero extends Component<Props, State> {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://github.com/Cryptech-Services"
+              target="_blank"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border  rounded-lg focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800"
             >
-              Speak to Sales
+              Github <GitHubIcon className="ml-2" />
             </a>
           </div>
           <div

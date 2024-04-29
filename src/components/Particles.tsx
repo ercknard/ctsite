@@ -39,7 +39,7 @@ const Particlesview: React.FC = ({}) => {
           clear: true,
           defaultThemes: {},
           fullScreen: {
-            enable: true,
+            enable: false,
             zIndex: 1,
           },
           detectRetina: true,

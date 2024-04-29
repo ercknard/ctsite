@@ -24,9 +24,11 @@ export default function Home() {
         <About />
         <SecurityServices />
         <Team />
-        <div>
+        <div className="relative">
           <Particlesview />
-          <Projects />
+          <div className="relative z-[11]">
+            <Projects />
+          </div>
           <Contact />
         </div>
         <Footer />

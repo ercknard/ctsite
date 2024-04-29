@@ -29,6 +29,8 @@ const services = [
       />
     ),
     color: "#d4e3ff",
+    email: "mailto:squid@cryptech.services",
+    discord: "https://discord.com/users/294414250376429569",
   },
   {
     name: "Seqsee",
@@ -47,6 +49,8 @@ const services = [
       />
     ),
     color: "#d4e3ff",
+    email: "mailto:seqsee@cryptech.services",
+    discord: "https://discord.com/users/412122437954830337",
   },
   {
     name: "Jekz",
@@ -65,6 +69,8 @@ const services = [
       />
     ),
     color: "#d4e3ff",
+    email: "mailto:jekz@cryptech.services",
+    discord: "https://discord.com/users/943186466744463421",
   },
   {
     name: "Baydroid",
@@ -81,6 +87,8 @@ const services = [
       />
     ),
     color: "#d4e3ff",
+    email: "mailto:baydroid@cryptech.services",
+    discord: "https://discord.com/users/426261793426636804",
   },
   {
     name: "Boehmerang",
@@ -97,6 +105,8 @@ const services = [
       />
     ),
     color: "#d4e3ff",
+    email: "mailto:boehmerang@cryptech.services",
+    discord: "https://discord.com/users/161986311832600576",
   },
   {
     name: "Rasalghul",
@@ -113,6 +123,8 @@ const services = [
       />
     ),
     color: "#d4e3ff",
+    email: "mailto:ras@cryptech.services",
+    discord: "https://discord.com/users/306288896516423680",
   },
   {
     name: "Ercknard",
@@ -129,6 +141,8 @@ const services = [
       />
     ),
     color: "#d4e3ff",
+    email: "mailto:ercknard@cryptech.services",
+    discord: "https://discord.com/users/615741889366458369",
   },
   {
     name: "Vanikoro",
@@ -145,6 +159,8 @@ const services = [
       />
     ),
     color: "#d4e3ff",
+    email: "mailto:vanikoro@cryptech.services",
+    discord: "https://discord.com/users/500376620708659212",
   },
 ];
 
@@ -219,12 +235,16 @@ const TeamCards = () => {
                 Cryptech Services
               </span>
               <div className="flex gap-[.5rem] mr-2">
-                <Button variant="contained">
-                  <MailOutlineIcon />
-                </Button>
-                <Button variant="contained">
-                  <PermIdentityIcon />
-                </Button>
+                <a href={item.email} target="_blank">
+                  <Button variant="contained">
+                    <MailOutlineIcon />
+                  </Button>
+                </a>
+                <a href={item.discord} target="_blank">
+                  <Button variant="contained">
+                    <PermIdentityIcon />
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

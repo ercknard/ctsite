@@ -90,7 +90,8 @@ export default function ContactUs() {
   };
   return (
     <section
-      data-aos="zoom-in"
+      // data-aos="zoom-in"
+      // data-aos-anchor-placement="top-bottom"
       className="qxl:min-h-[45vh] lg:min-h-[60vh] flex justify-center pt-8 pb-20"
     >
       <div className="max-w-screen-xl relative z-10">

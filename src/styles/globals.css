@@ -96,9 +96,15 @@ body::-webkit-scrollbar-thumb {
   color: #6b7280;
 }
 
+@media screen and (max-width: 1600px) {
+  .marquee-width {
+    width: 85vw !important;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .marquee-width {
-    display: none;
+    width: 95vw !important;
   }
 }
 

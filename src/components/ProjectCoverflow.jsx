@@ -390,7 +390,7 @@ export default function ProjectsCall() {
         freeMode={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper max-w-screen-vxl project-selector flex -mt-[7.5rem] to-hide"
+        className="mySwiper max-w-screen-vxl project-selector xxxl:flex -mt-[7.5rem] to-hide hidden"
       >
         {project_picker.map((item) => (
           <SwiperSlide

@@ -112,7 +112,7 @@ export default function ProjectsCall() {
         navigation={false}
         thumbs={{ swiper: thumbsSwiper }}
         modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper2 w-[99vw] bg-[#0b1120] visibility-hidden"
+        className="mySwiper2 lg:w-[99vw] w-[95vw] bg-[#0b1120] visibility-hidden"
       >
         <SwiperSlide>
           <section
@@ -376,7 +376,7 @@ export default function ProjectsCall() {
         freeMode={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper max-w-screen-vxl project-selector flex -mt-[7.5rem]"
+        className="mySwiper max-w-screen-vxl project-selector flex -mt-[7.5rem] to-hide"
       >
         {project_picker.map((item) => (
           <SwiperSlide

@@ -69,7 +69,7 @@ const SecurityCards = () => {
         {services.map((item) => (
           <div
             data-aos="zoom-in"
-            className="lg:min-w-[384px] flex-shrink-0 mt-6 relative overflow-hidden bg-[#1e293b] rounded-lg min-w-[20rem] max-w-[20rem] min-h-[35rem] shadow-lg border-solid border-l-[#2e6dd0] border-transparent border-2 to-z-20"
+            className="lg:min-w-[384px] flex-shrink-0 mt-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:max-w-[20rem] min-w-[90vw] max-w-[90vw] min-h-[35rem] shadow-lg border-solid border-l-[#2e6dd0] border-transparent border-2 to-z-20"
             key={item.name}
           >
             <svg

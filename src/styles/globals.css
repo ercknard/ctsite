@@ -261,6 +261,16 @@ body::-webkit-scrollbar-thumb {
   font-weight: 800;
 }
 
+@media (max-width: 1280px) {
+  .contact::after,
+  .projects::after,
+  .team-services::after,
+  .security-services::after,
+  .what-do-we-offer::after {
+    display: none !important;
+  }
+}
+
 /* .banner-card::after {
   content: "";
   position: absolute;
@@ -563,4 +573,10 @@ body::-webkit-scrollbar-thumb {
 
 .to-z-20 {
   z-index: 20 !important;
+}
+
+@media (max-width: 1280px) {
+  .to-hide {
+    display: none !important;
+  }
 }

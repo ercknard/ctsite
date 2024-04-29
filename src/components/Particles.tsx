@@ -39,8 +39,8 @@ const Particlesview: React.FC = ({}) => {
           clear: true,
           defaultThemes: {},
           fullScreen: {
-            enable: false,
-            zIndex: -1,
+            enable: true,
+            zIndex: 1,
           },
           detectRetina: true,
           duration: 0,

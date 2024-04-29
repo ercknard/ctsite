@@ -68,6 +68,7 @@ const SecurityCards = () => {
       <div className="relative flex justify-around lg:flex-row flex-col mb-16 gap-12 list-disc [&>*:nth-child(2)]:scale-105 lg:[&>*:nth-child(1)]:ml-3">
         {services.map((item) => (
           <div
+            data-aos="zoom-in"
             className="lg:min-w-[384px] flex-shrink-0 mt-6 relative overflow-hidden bg-[#1e293b] rounded-lg min-w-[20rem] max-w-[20rem] min-h-[35rem] shadow-lg border-solid border-l-[#2e6dd0] border-transparent border-2 "
             key={item.name}
           >

@@ -534,10 +534,18 @@ body::-webkit-scrollbar-thumb {
 } */
 
 .canvas-container {
-  position: absolute !important;
-  z-index: 2 !important;
-  animation: particles 3s linear 1 !important;
-  opacity: 100;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+#tsparticles {
+  position: relative !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  opacity: 100%;
+  animation: particles 3s linear 1;
 }
 
 @keyframes particles {

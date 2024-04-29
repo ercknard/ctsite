@@ -102,7 +102,7 @@ export default function ProjectsCall() {
 
   return (
     <>
-      {/* <Particlesview /> */}
+      <Particlesview />
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -115,7 +115,10 @@ export default function ProjectsCall() {
         className="mySwiper2 w-[99vw] bg-[#0b1120] visibility-hidden"
       >
         <SwiperSlide>
-          <section className="relative flex items-center min-h-[75vh] cryptechtest">
+          <section
+            data-aos="zoom-in"
+            className="relative flex items-center min-h-[75vh] cryptechtest"
+          >
             <span className="dust-cover" />
             <div className="grid lg:px-8 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 to-z-20">
               <div className="mr-auto place-self-center lg:col-span-7 z-[20]">
@@ -164,7 +167,10 @@ export default function ProjectsCall() {
           </section>
         </SwiperSlide>
         <SwiperSlide>
-          <section className="relative flex items-center min-h-[75vh] lgp">
+          <section
+            data-aos="zoom-in"
+            className="relative flex items-center min-h-[75vh] lgp"
+          >
             <span className="dust-cover" />
             <div className="grid lg:px-8 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div className="mr-auto place-self-center lg:col-span-7 z-[1]">
@@ -213,7 +219,10 @@ export default function ProjectsCall() {
           </section>
         </SwiperSlide>
         <SwiperSlide>
-          <section className="relative flex items-center min-h-[75vh] place">
+          <section
+            data-aos="zoom-in"
+            className="relative flex items-center min-h-[75vh] place"
+          >
             <span className="dust-cover" />
             <div className="grid lg:px-8 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div className="mr-auto place-self-center lg:col-span-7 z-[1]">
@@ -263,7 +272,10 @@ export default function ProjectsCall() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <section className="relative flex items-center min-h-[75vh] metrimask">
+          <section
+            data-aos="zoom-in"
+            className="relative flex items-center min-h-[75vh] metrimask "
+          >
             <span className="dust-cover" />
             <div className="grid lg:px-8 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div className="mr-auto place-self-center lg:col-span-7 z-[1]">
@@ -368,6 +380,7 @@ export default function ProjectsCall() {
       >
         {project_picker.map((item) => (
           <SwiperSlide
+            data-aos="zoom-in"
             className="flex flex-wrap items-center hover:opacity-100 cursor-pointer"
             key={item.name}
           >

@@ -89,7 +89,10 @@ export default function ContactUs() {
     console.log(fullname, email, subject, message);
   };
   return (
-    <section className="qxl:min-h-[45vh] lg:min-h-[60vh] flex justify-center pt-8 pb-20">
+    <section
+      data-aos="zoom-in"
+      className="qxl:min-h-[45vh] lg:min-h-[60vh] flex justify-center pt-8 pb-20"
+    >
       <div className="max-w-screen-xl relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4 md:h-96">
           <form

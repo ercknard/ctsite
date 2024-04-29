@@ -83,7 +83,7 @@ const project_picker = [
   },
   {
     name: "MetriMask Mobile",
-    href: "https://play.google.com/store/apps/details?id=com.metrimask_mobile",
+    href: "https://github.com/TheLindaProjectInc/MetriMask-Mobile",
     current:
       "Our web design approach focuses on crafting user-centric and aesthetically pleasing websites that align with your brand identity and business goals.",
     icon: <DesignServicesOutlinedIcon fontSize="large" />,
@@ -98,7 +98,7 @@ const project_picker = [
         src="/images/mm.webp"
       />
     ),
-    btn: <ShopIcon />,
+    btn: <GitHubIcon />,
   },
 ];
 
@@ -209,13 +209,13 @@ export default function ProjectsCall() {
                     ></path>
                   </svg>
                 </a>
-                <a
+                {/* <a
                   href="https://github.com/Cryptech-Services/metrix-lgp"
                   target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border  rounded-lg focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800"
                 >
                   Github <GitHubIcon className="ml-2" />
-                </a>
+                </a> */}
               </div>
               <div className="hidden lg:mt-0 lg:col-span-5 lg:flex z-[1] w-[50%] ml-auto mr-auto justify-center">
                 <Image

@@ -10,6 +10,15 @@ import Image from "next/image";
 import { Button } from "@mui/material";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import { Parallax, Pagination, Navigation } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const services = [
   {
@@ -148,90 +157,57 @@ const services = [
   },
 ];
 
-const TeamCards = () => {
+const TeamSlide = () => {
   return (
-    <section className="flex flex-wrap items-center justify-center gap-[.25rem] w-full mb-8">
-      {services.map((item) => (
+    <>
+      <Swiper
+        style={{
+          "--swiper-navigation-color": "#fff",
+          "--swiper-pagination-color": "#fff",
+        }}
+        speed={600}
+        parallax={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Parallax, Pagination, Navigation]}
+        className="mySwiper max-w-screen-vxl"
+      >
         <div
-          className="relative flex flex-wrap items-center justify-center"
-          key={item.name}
-        >
-          <div className="blurs-effect flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:min-w-[22.5rem] lg:max-w-[22.5rem] min-w-[20rem] max-w-[20rem] lg:h-full h-[30rem] shadow-lg border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105 team-hover team-card-hover">
-            <svg
-              className="absolute bottom-0 left-0 mb-8"
-              viewBox="0 0 375 283"
-              fill="none"
-              style={{ transform: "scale(1.5)", opacity: 0.01 }}
-            >
-              <rect
-                x="159.52"
-                y="175"
-                width="152"
-                height="152"
-                rx="8"
-                transform="rotate(-45 159.52 175)"
-                fill="white"
-              />
-              <rect
-                y="107.48"
-                width="152"
-                height="152"
-                rx="8"
-                transform="rotate(-45 0 107.48)"
-                fill="white"
-              />
-            </svg>
-            <div className="relative pt-1 px-10 flex items-center justify-center">
-              <div
-                className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                style={{
-                  transform: "rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)",
-                  opacity: 0.2,
-                }}
-              ></div>
+          slot="container-start"
+          className="parallax-bg p-[3rem]"
+          style={{
+            "background-image":
+              "url(https://swiperjs.com/demos/images/nature-1.jpg)",
+          }}
+          data-swiper-parallax="-23%"
+        ></div>
+        {services.map((item) => (
+          <SwiperSlide key={item.name} className="p-[3rem]">
+            <div className="title" data-swiper-parallax="-300">
+              {item.name}
             </div>
-            <div className="relative text-white px-6 pb-6 mt-6 bg-team-card cover-team z-10">
-              <div>{item.icon}</div>
-              <div className="flex justify-between team-name">
-                <span className="font-semibold text-3xl mt-2">{item.name}</span>
-              </div>
-              <span className="text-[#0ea5e9] text-xl pt-10 team-name">
-                {item.href}{" "}
-                {/* <span className="team-desc mx-2"> {item.role1} </span>{" "}
-                <span className="team-desc"> {item.role2} </span> */}
-              </span>{" "}
-              {/* <span className="block font-semibold text-3xl mt-2 team-desc">
-                Roles:
-              </span>
-              <span className="text-white text-l team-desc">{item.href}</span>
-              <span className="text-white text-l team-desc">{item.role1}</span>
-              <span className="text-white text-l team-desc ml-1">
-                {item.role2}
-              </span> */}
-              {/* <span className="text-white text-l team-desc">{item.role1}</span>
-              <span className="text-white text-l team-desc ml-1">
-                {item.role2}
-              </span> */}
+            <div className="subtitle" data-swiper-parallax="-200">
+              {item.href}
             </div>
-            <div className="flex items-center justify-between">
-              <span className="p-4 mt-1 block text-lg text-[#cccccc] overflow-wrap: break-word;">
-                Cryptech Services
-              </span>
-              <div className="flex gap-[.5rem] mr-2">
-                <Button variant="contained">
-                  <MailOutlineIcon />
-                </Button>
-                <Button variant="contained">
-                  <PermIdentityIcon />
-                </Button>
-              </div>
+            <div className="text" data-swiper-parallax="-100">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh
+                euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              </p>
             </div>
-          </div>
-        </div>
-      ))}
-      ;
-    </section>
+          </SwiperSlide>
+        ))}
+        ;
+      </Swiper>
+    </>
   );
 };
 
-export default TeamCards;
+export default TeamSlide;

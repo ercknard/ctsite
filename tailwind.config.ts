@@ -20,6 +20,7 @@ const config: Config = {
         xl: "1280px",
         vxl: "1550px",
         pxl: "1800px",
+        qxl: "1921px",
       },
     },
   },

@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
@@ -6,6 +7,7 @@ import About from "@/components/About";
 import SecurityServices from "@/components/SecurityServices";
 import Projects from "@/components/Projects";
 import Team from "@/components/Team";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -21,7 +23,10 @@ export default function Home() {
         <About />
         <SecurityServices />
         <Team />
-        <Projects />
+        <div>
+          <Projects />
+          <Contact />
+        </div>
         <Footer />
       </main>
     </>

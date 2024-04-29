@@ -535,5 +535,20 @@ body::-webkit-scrollbar-thumb {
 
 .canvas-container {
   position: absolute !important;
-  z-index: 10 !important;
+  z-index: 2 !important;
+  animation: particles 3s linear 1 !important;
+  opacity: 100;
+}
+
+@keyframes particles {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.to-z-20 {
+  z-index: 20 !important;
 }

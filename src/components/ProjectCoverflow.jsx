@@ -11,6 +11,7 @@ import { Button } from "@mui/material";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Particlesview from "@/components/Particles";
 
 // Import Swiper styles
 import "swiper/css";
@@ -101,6 +102,7 @@ export default function ProjectsCall() {
 
   return (
     <>
+      {/* <Particlesview /> */}
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -115,8 +117,8 @@ export default function ProjectsCall() {
         <SwiperSlide>
           <section className="relative flex items-center min-h-[75vh] cryptechtest">
             <span className="dust-cover" />
-            <div className="grid lg:px-8 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-              <div className="mr-auto place-self-center lg:col-span-7 z-[1]">
+            <div className="grid lg:px-8 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 to-z-20">
+              <div className="mr-auto place-self-center lg:col-span-7 z-[20]">
                 <div className="max-w-2xl mb-4 text-5xl font-bold tracking-tight leading-none md:text-5xl xl:text-5xl text-white underlined-1">
                   CryptechTest Game
                 </div>
@@ -371,7 +373,7 @@ export default function ProjectsCall() {
           >
             <div
               className={
-                "flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:min-w-[20rem] lg:max-w-[20rem] min-w-[20rem] max-w-[20rem] lg:h-[15rem] h-[27.5rem] shadow-lg hover:bg-[#004b9a50] border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105 " +
+                "flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] to-z-20 rounded-lg lg:min-w-[20rem] lg:max-w-[20rem] min-w-[20rem] max-w-[20rem] lg:h-[15rem] h-[27.5rem] shadow-lg hover:bg-[#004b9a50] border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105 " +
                 item.bg
               }
             >

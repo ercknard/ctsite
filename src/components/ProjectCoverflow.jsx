@@ -102,7 +102,7 @@ export default function ProjectsCall() {
 
   return (
     <>
-      <Particlesview />
+      {/* <Particlesview /> */}
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",

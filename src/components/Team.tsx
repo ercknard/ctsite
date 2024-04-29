@@ -12,7 +12,10 @@ export default class Team extends Component<Props, State> {
 
   render() {
     return (
-      <section className="bg-[#02050a] py-16 flex justify-center black-blur-effect px-4 pvot z-20">
+      <section
+        id="team"
+        className="bg-[#02050a] py-16 flex justify-center black-blur-effect px-4 pvot z-20"
+      >
         <div className="relative w-full max-w-screen-pxl flex flex-col items-center">
           <span className="team-services" />
           <span className="text-[#0ea5e9] text-xl">Cryptech Services</span>

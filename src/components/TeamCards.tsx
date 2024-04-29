@@ -154,7 +154,7 @@ const TeamCards = () => {
       {services.map((item) => (
         <div
           data-aos="zoom-out-left"
-          className="relative flex flex-wrap items-center justify-center"
+          className="relative flex flex-wrap items-center justify-center to-z-20"
           key={item.name}
         >
           <div className="blurs-effect flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:min-w-[22.5rem] lg:max-w-[22.5rem] min-w-[20rem] max-w-[20rem] lg:h-full h-[30rem] shadow-lg border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105 team-hover team-card-hover">

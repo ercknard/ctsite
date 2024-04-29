@@ -9,10 +9,10 @@ import { styled } from "@mui/system";
 import Stack from "@mui/material/Stack";
 
 const navigation = [
-  { name: "Services", href: "#", current: true },
-  { name: "Security", href: "#", current: false },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
+  { name: "Services", href: "#about", current: true },
+  { name: "Security", href: "#security", current: false },
+  { name: "Team", href: "#team", current: false },
+  { name: "Projects", href: "#projects", current: false },
 ];
 
 const blue = {
@@ -121,29 +121,34 @@ export default function Navigation() {
                     Cryptech Services{" "}
                   </span>
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-sky-500 text-white border-solid border-b-2 border-sky-500 h-9"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+                <div className="flex items-center gap-8">
+                  <div className="hidden sm:ml-6 sm:block">
+                    <div className="flex space-x-4">
+                      {navigation.map((item) => (
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          // className={classNames(
+                          //   item.current
+                          //     ? "bg-sky-500 text-white border-solid border-b-2 border-sky-500 h-9"
+                          //     : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                          //   "rounded-md px-3 py-2 text-sm font-medium"
+                          // )}
+                          // aria-current={item.current ? "page" : undefined}
+                          className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                        >
+                          {item.name}
+                        </a>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                <div className="hidden sm:block">
-                  <Stack spacing={2} direction="row">
-                    <Button>Contact Us</Button>
-                  </Stack>
+                  <div className="hidden sm:block">
+                    <Stack spacing={2} direction="row">
+                      <a href="#contact">
+                        <Button>Contact Us</Button>
+                      </a>
+                    </Stack>
+                  </div>
                 </div>
               </div>
               {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">

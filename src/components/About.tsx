@@ -11,7 +11,10 @@ export default class About extends Component<Props, State> {
 
   render() {
     return (
-      <section className="bg-[#0f172a] min-h-full py-12 flex justify-center border-top-clip blur-effect px-4 pb-20">
+      <section
+        id="about"
+        className="bg-[#0f172a] min-h-full py-12 flex justify-center border-top-clip blur-effect px-4 pb-20"
+      >
         <div className="relative w-full max-w-screen-xl flex flex-col items-center">
           <span className="what-do-we-offer" />
           <span className="text-[#0ea5e9] text-xl pt-10">Our Services</span>

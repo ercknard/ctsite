@@ -65,7 +65,7 @@ const ServicesCards = () => {
       {services.map((item) => (
         <div
           data-aos="fade-right"
-          className="flex flex-wrap items-center justify-center"
+          className="flex flex-wrap items-center justify-center to-z-20"
           key={item.name}
         >
           <div className="flex-shrink-0 m-6 relative overflow-hidden bg-[#1e293b] rounded-lg lg:min-w-[22.5rem] lg:max-w-[22.5rem] min-w-[20rem] max-w-[20rem] lg:h-[25rem] h-[27.5rem] shadow-lg hover:bg-[#004b9a50] border-solid hover:border-2 border-l-[#2e6dd0] border-transparent border-2 hover:scale-105">

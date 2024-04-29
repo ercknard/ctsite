@@ -11,7 +11,10 @@ export default class Contact extends Component<Props, State> {
 
   render() {
     return (
-      <section className="contact-bg py-16 flex justify-center black-blur-effect px-4 blur-effect-2">
+      <section
+        id="contact"
+        className="contact-bg py-16 flex justify-center black-blur-effect px-4 blur-effect-2"
+      >
         <span className="contact flex z-10" />
         <span className="contact-bgs" />
         <div className="relative w-full max-w-screen flex flex-col items-center z-10">

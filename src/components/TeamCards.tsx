@@ -153,7 +153,7 @@ const TeamCards = () => {
     <section className="flex flex-wrap items-center justify-center gap-[.25rem] w-full mb-8">
       {services.map((item) => (
         <div
-          data-aos="zoom-out-left"
+          data-aos="zoom-out-right"
           className="relative flex flex-wrap items-center justify-center to-z-20"
           key={item.name}
         >

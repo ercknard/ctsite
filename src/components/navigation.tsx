@@ -109,17 +109,19 @@ export default function Navigation() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <Image
-                    width="100"
-                    height="100"
-                    className="h-10 w-auto"
-                    src="/images/Capture.webp"
-                    alt="Your Company"
-                  />
-                  <span className="text-white ml-1 text-xl font-medium">
-                    {" "}
-                    Cryptech Services{" "}
-                  </span>
+                  <a href="#" className="flex flex-shrink-0 items-center">
+                    <Image
+                      width="100"
+                      height="100"
+                      className="h-10 w-auto"
+                      src="/images/Capture.webp"
+                      alt="Your Company"
+                    />
+                    <span className="text-white ml-1 text-xl font-medium">
+                      {" "}
+                      Cryptech Services{" "}
+                    </span>
+                  </a>
                 </div>
                 <div className="flex items-center gap-8">
                   <div className="hidden sm:ml-6 sm:block">

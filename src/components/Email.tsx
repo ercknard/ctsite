@@ -97,7 +97,7 @@ export default function ContactUs() {
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4 md:h-96">
           <form
             onSubmit={handleSubmit}
-            className="rounded-lg shadow-xl flex flex-col px-8 py-8 form-bg bg-[#1e293b] lg:min-w-[500px]"
+            className="rounded-lg shadow-xl flex flex-col px-8 py-8 form-bg bg-[#1e293b] lg:min-w-[500px] min-w-[90vw]"
           >
             <svg
               className="absolute bottom-0 left-0 mb-8 -z-[1]"

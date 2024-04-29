@@ -580,3 +580,22 @@ body::-webkit-scrollbar-thumb {
     display: none !important;
   }
 }
+
+@media (max-width: 768px) {
+  .canvas-container {
+    position: relative !important;
+    z-index: 1 !important;
+    display: none !important;
+  }
+
+  #tsparticles {
+    position: relative !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    opacity: 100%;
+    animation: particles 3s linear 1;
+    display: none !important;
+  }
+}

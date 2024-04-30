@@ -92,7 +92,7 @@ export default function ContactUs() {
     <section
       // data-aos="zoom-in"
       // data-aos-anchor-placement="top-bottom"
-      className="qxl:min-h-[45vh] lg:min-h-[60vh] flex justify-center pt-8 xxxl:mb-20 mb-32 overflow-x-hidden"
+      className="qxl:min-h-[45vh] lg:min-h-[60vh] flex justify-center pt-8 xxxl:pb-20 pb-32 lg:overflow-y-auto overflow-x-hidden"
     >
       <div className="max-w-screen-xl relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4 md:h-96">

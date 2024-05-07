@@ -12,7 +12,7 @@ export default class Footer extends Component<Props, State> {
   render() {
     return (
       <footer className="bg-gray-900 lg:px-8 relative z-20">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
+        <div className="mx-auto w-full max-w-screen-vxl p-4 py-6 lg:py-8 ">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0 lg:w-[50%] w-full">
               <a href="#" className="flex items-center">

@@ -93,7 +93,7 @@ export default function Navigation() {
     <Disclosure className="nav-bg" as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4">
+          <div className="mx-auto max-w-screen-vxl px-4">
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}

@@ -64,7 +64,7 @@ const ServicesCards = () => {
     <section className="flex flex-wrap items-center gap-[1rem] w-full justify-center">
       {services.map((item) => (
         <div
-          data-aos="fade-right"
+          data-aos="zoom-in"
           className="flex flex-wrap items-center justify-center to-z-20"
           key={item.name}
         >

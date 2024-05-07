@@ -14,7 +14,7 @@ export default class Team extends Component<Props, State> {
     return (
       <section
         id="team"
-        className="bg-[#02050a] py-16 flex justify-center black-blur-effect px-4 pvot z-20"
+        className="bg-[#02050a] py-16 flex justify-center black-blur-effect px-4 pvot z-20 pb-20"
       >
         <div className="relative w-full max-w-screen-pxl flex flex-col items-center">
           <span className="team-services" />

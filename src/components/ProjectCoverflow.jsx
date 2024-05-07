@@ -394,7 +394,7 @@ export default function ProjectsCall() {
       >
         {project_picker.map((item) => (
           <SwiperSlide
-            // data-aos="zoom-in"
+            data-aos="zoom-in"
             // data-aos-anchor-placement="bottom-bottom"
             className="flex flex-wrap items-center hover:opacity-100 cursor-pointer"
             key={item.name}

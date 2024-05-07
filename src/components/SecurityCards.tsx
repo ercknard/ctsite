@@ -144,7 +144,7 @@ const SecurityCards = () => {
           </div>
         </div>
       ))}
-      <div>
+      <div className="mt-8">
         {/* <span className="border-top-clip" /> */}
         <div className="mt-10 block text-lg text-[#cccccc] overflow-wrap: break-word;">
           ❖ ¹Final price may be adjusted or negotiated after review of

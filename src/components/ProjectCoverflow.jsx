@@ -117,7 +117,7 @@ export default function ProjectsCall() {
         navigation={false}
         thumbs={{ swiper: thumbsSwiper }}
         modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper2 lg:w-[99vw] w-[90vw] bg-[#0b1120] visibility-hidden"
+        className="mySwiper2 lg:w-[99vw] w-[90vw] bg-[#0b1120] visibility-hidden lg:-mt-[2.5rem]"
       >
         <SwiperSlide>
           <section

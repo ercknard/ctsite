@@ -15,7 +15,7 @@ export default class SecurityServices extends Component<Props, State> {
         id="security"
         className="min-h-full py-20 flex justify-center px-4 landing-hero-1"
       >
-        <div className="relative w-full max-w-screen-xl flex flex-col items-center">
+        <div className="relative w-full max-w-screen-vxl flex flex-col items-center">
           <span className="security-services" />
           <span className="text-[#0ea5e9] text-xl">Our Services</span>
           <div className="relative text-4xl font-bold text-white mb-8 w-full text-center z-10 underlined">

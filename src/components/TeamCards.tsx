@@ -176,7 +176,7 @@ const services = [
 
 const TeamCards = () => {
   return (
-    <section className="flex flex-wrap items-center justify-center gap-[.25rem] w-full mb-8">
+    <section className="flex flex-wrap items-center justify-center w-full mb-8">
       {services.map((item) => (
         <div
           data-aos="zoom-in"

@@ -205,7 +205,7 @@ export default function ContactUs() {
             <div className="flex flex-row items-center justify-start">
               <Button
                 type="submit"
-                className="px-5 my-4 py-2 bg-blue-500 text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
+                className="px-5 my-4 py-2 bg-blue-500 text-gray-50 font-light rounded-md text-base flex flex-row items-center"
               >
                 {buttonText}
                 <svg

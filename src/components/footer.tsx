@@ -69,12 +69,18 @@ export default class Footer extends Component<Props, State> {
                 </h2>
                 <ul className="text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a href="#" className="hover:underline ">
+                    <a
+                      href="https://github.com/Cryptech-Services"
+                      className="hover:underline "
+                    >
                       Github
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a
+                      href="https://discord.gg/SuJta8WXuQ"
+                      className="hover:underline"
+                    >
                       Discord
                     </a>
                   </li>
@@ -102,14 +108,17 @@ export default class Footer extends Component<Props, State> {
           <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm sm:text-center text-gray-400">
-              © 2023{" "}
+              © 2024{" "}
               <a href="#" className="hover:underline">
                 Cryptech Services
               </a>
               . All Rights Reserved.
             </span>
-            <div className="flex mt-4 sm:justify-center sm:mt-0">
-              <a href="#" className="text-gray-500 hover:text-white">
+            {/* <div className="flex mt-4 sm:justify-center sm:mt-0">
+              <a
+                href=""
+                className="text-gray-500 hover:text-white opacity-50 cursor-not-allowed"
+              >
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -125,7 +134,10 @@ export default class Footer extends Component<Props, State> {
                 </svg>
                 <span className="sr-only">Facebook page</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-white ms-5">
+              <a
+                href=""
+                className="text-gray-500 hover:text-white ms-5 opacity-50 cursor-not-allowed"
+              >
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -137,7 +149,10 @@ export default class Footer extends Component<Props, State> {
                 </svg>
                 <span className="sr-only">Discord community</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-white ms-5">
+              <a
+                href=""
+                className="text-gray-500 hover:text-white ms-5 opacity-50 cursor-not-allowed"
+              >
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -153,7 +168,10 @@ export default class Footer extends Component<Props, State> {
                 </svg>
                 <span className="sr-only">Twitter page</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-white ms-5">
+              <a
+                href=""
+                className="text-gray-500 hover:text-white ms-5 opacity-50 cursor-not-allowed"
+              >
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -169,7 +187,10 @@ export default class Footer extends Component<Props, State> {
                 </svg>
                 <span className="sr-only">GitHub account</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-white ms-5">
+              <a
+                href=""
+                className="text-gray-500 hover:text-white ms-5 opacity-50 cursor-not-allowed"
+              >
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -185,7 +206,7 @@ export default class Footer extends Component<Props, State> {
                 </svg>
                 <span className="sr-only">Dribbble account</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

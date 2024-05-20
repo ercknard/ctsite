@@ -15,7 +15,7 @@ export default class About extends Component<Props, State> {
         id="about"
         className="bg-[#0f172a] min-h-full py-12 flex justify-center border-top-clip blur-effect px-4 pb-20"
       >
-        <div className="relative w-full max-w-screen-vxl flex flex-col items-center">
+        <div className="relative w-full max-w-screen-pxl flex flex-col items-center">
           <span className="what-do-we-offer" />
           <span className="text-[#0ea5e9] text-xl pt-10">Our Services</span>
           <div className="relative text-4xl font-bold text-white mb-8 w-full text-center z-10 underlined">

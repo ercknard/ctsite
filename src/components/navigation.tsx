@@ -117,7 +117,7 @@ export default function Navigation() {
                       src="/images/Capture.webp"
                       alt="Your Company"
                     />
-                    <span className="text-white ml-1 text-xl font-medium">
+                    <span className="text-white ml-2 text-2xl font-medium">
                       {" "}
                       Cryptech Services{" "}
                     </span>

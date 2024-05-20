@@ -6,6 +6,9 @@ import PrecisionManufacturingOutlinedIcon from "@mui/icons-material/PrecisionMan
 import ShieldOutlinedIcon from "@mui/icons-material/ShieldOutlined";
 import DesignServicesOutlinedIcon from "@mui/icons-material/DesignServicesOutlined";
 import SupportAgentOutlinedIcon from "@mui/icons-material/SupportAgentOutlined";
+import LayersIcon from "@mui/icons-material/Layers";
+import PublicIcon from "@mui/icons-material/Public";
+import DrawIcon from "@mui/icons-material/Draw";
 import Image from "next/image";
 
 const services = [
@@ -14,7 +17,7 @@ const services = [
     href: "#",
     current:
       "Our full-stack web development approach involves proficiently handling both front-end and back-end aspects to deliver comprehensive and dynamic web solutions.",
-    icon: <CurrencyBitcoinOutlinedIcon fontSize="large" />,
+    icon: <LayersIcon fontSize="large" />,
     color: "#d4e3ff",
   },
   {
@@ -22,7 +25,7 @@ const services = [
     href: "#",
     current:
       "As experts in Web3 and DApp development, we harness the power of decentralized technologies to build immersive and user-friendly applications.",
-    icon: <PrecisionManufacturingOutlinedIcon fontSize="large" />,
+    icon: <CurrencyBitcoinOutlinedIcon fontSize="large" />,
     color: "#d4e3ff",
   },
   {
@@ -30,7 +33,7 @@ const services = [
     href: "#",
     current:
       "We specialize in Solidity smart contract development, creating secure and efficient blockchain-based solutions tailored to your specific decentralized application needs.",
-    icon: <ShieldOutlinedIcon fontSize="large" />,
+    icon: <PublicIcon fontSize="large" />,
     color: "#d4e3ff",
   },
   {
@@ -46,7 +49,7 @@ const services = [
     href: "#",
     current:
       "Our graphic design services involve translating your brand identity and messaging into visually compelling designs.",
-    icon: <SupportAgentOutlinedIcon fontSize="large" />,
+    icon: <DrawIcon fontSize="large" />,
     color: "#d4e3ff",
   },
   {

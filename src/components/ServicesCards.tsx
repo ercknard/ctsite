@@ -64,7 +64,7 @@ const services = [
 
 const ServicesCards = () => {
   return (
-    <section className="flex flex-wrap items-center w-full justify-center">
+    <section className="flex flex-wrap items-center max-w-screen-xxl justify-center">
       {services.map((item) => (
         <div
           data-aos="zoom-in"

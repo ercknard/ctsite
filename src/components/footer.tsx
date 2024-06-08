@@ -14,7 +14,7 @@ export default class Footer extends Component<Props, State> {
       <footer className="bg-gray-900 lg:px-8 relative z-20">
         <div className="mx-auto w-full max-w-screen-vxl p-4 py-6 lg:py-8 ">
           <div className="md:flex md:justify-between">
-            <div className="mb-6 md:mb-0 lg:w-[50%] w-full">
+            <div className="mb-6 md:mb-0 lg:w-[60%] w-full">
               <a href="#" className="flex items-center">
                 <Image
                   width="100"
@@ -35,7 +35,7 @@ export default class Footer extends Component<Props, State> {
                 cybersecurity, as well as technical support and consultation.
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
               <div>
                 <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                   Projects
@@ -86,7 +86,7 @@ export default class Footer extends Component<Props, State> {
                   </li>
                 </ul>
               </div>
-              <div>
+              {/* <div>
                 <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                   Legal
                 </h2>
@@ -102,7 +102,7 @@ export default class Footer extends Component<Props, State> {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />

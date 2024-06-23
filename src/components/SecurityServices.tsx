@@ -13,7 +13,7 @@ export default class SecurityServices extends Component<Props, State> {
     return (
       <section
         id="security"
-        className="min-h-full py-20 flex justify-center px-4 landing-hero-1 border-solid border-b-[.5px] border-t-[.5px]"
+        className="min-h-full py-20 flex justify-center px-4 landing-hero-1"
       >
         <div className="relative w-full max-w-screen-vxl flex flex-col items-center">
           <span className="security-services" />

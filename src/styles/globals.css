@@ -243,7 +243,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 4rem;
   color: #014eb110;
   text-align: center;
-  z-index: 1;
+  z-index: 10;
   left: 0;
   right: 0;
   margin-left: auto;

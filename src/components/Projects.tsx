@@ -22,9 +22,9 @@ export default class Projects extends Component<Props, State> {
             {" "}
             <span className="text-[#0ea5e9]">Project</span> Highlights
           </div>
-          <p className="text-lg text-white text-left mb-4 max-w-screen-xl z-10">
-            Explore a diverse array of innovative projects showcasing expertise
-            in various fields, from software development to sustainable design.
+          <p className="text-lg text-white text-left mb-4 max-w-screen-xl z-10 mt-[1.25rem]">
+            {/* Explore a diverse array of innovative projects showcasing expertise
+            in various fields, from software development to sustainable design. */}
           </p>
           <ProjectsCall />
         </div>
